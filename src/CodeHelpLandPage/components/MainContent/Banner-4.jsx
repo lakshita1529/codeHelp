@@ -36,9 +36,6 @@ const Banner_4 = () => {
 
                 <div className='relative'>
 
-                    {/* <div className='overflow-hidden '>
-                        <img src="https://cdn.thecodehelp.in/ggcp5ffn7v6vdnrrd53d_e563995c50.svg" className='absolute top-0 w-full h-[150%] border'/>
-                    </div> */}
 
                     <div className='flex flex-col gap-y-6 items-center justify-center'>
 

@@ -44,7 +44,7 @@ const Banner_1 = () => {
       <div
         className="w-full xl:min-h-[45rem] 2xl:min-h-[53rem] bg-black flex justify-start items-center py-[2rem] lg:py-[3rem] xl:py-0 relative"
         style={{
-          backgroundImage: `url('https://img.freepik.com/free-vector/gradient-grid-background_23-2150533908.jpg')`,
+          backgroundImage: `url('https://static.vecteezy.com/system/resources/previews/001/401/677/non_2x/abstract-polygonal-shape-black-background-free-vector.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -75,10 +75,10 @@ const Banner_1 = () => {
               viewport={{ once: true }}
               className="space-x-3 flex-shrink-1"
             >
-              <button className="bg-indigo-800 text-white rounded-full text-[1rem] lg:text-xl px-6 lg:px-10 py-3 lg:py-6 border-2 border-yellow-500 active:scale-90 transition-all">
+              <button className="bg-indigo-800 text-white rounded-full text-[1rem] lg:text-xl px-6 lg:px-10 py-3 lg:py-6  active:scale-90 transition-all">
                 View Courses
               </button>
-              <button className="border-2 border-red-600 text-white rounded-full text-[1rem] lg:text-xl px-6 lg:px-10 py-3 lg:py-6 border-2 border-yellow-500 active:scale-90 transition-all">
+              <button className="border-3 border-red-600 text-white rounded-full text-[1rem] lg:text-xl px-6 lg:px-10 py-3 lg:py-6  active:scale-90 transition-all">
                 Watch Video | Live
               </button>
             </motion.div>
@@ -112,7 +112,7 @@ const Banner_1 = () => {
 
               <div className="sm:text-[.9rem] md:text-[1rem] mr-4 flex flex-col items-start justify-center">
                 <p className="text-gray-300 font-semibold">35000+</p>
-                <p className="text-gray-500 font-semibold">Happy Students</p>
+                <p className="text-white font-semibold">Happy Students</p>
               </div>
             </motion.div>
           </div>
@@ -122,7 +122,7 @@ const Banner_1 = () => {
               {buttons.slice(0, 4).map((buttonText, index) => (
                 <button
                   key={index}
-                  className="text-white border-2 bg-black border-yellow-500 px-6 py-3 text-[1rem] lg:text-xl rounded"
+                  className="text-white border-2 bg-black border- 2 border-yellow-500 px-6 py-3 text-[1rem] lg:text-xl rounded"
                 >
                   {buttonText}
                 </button>
